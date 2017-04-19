@@ -84,3 +84,7 @@ This directory contains:
 
 - One-page keyboard map US-PolymathKeyboardMac.pdf
 
+A zip of the files in this directory is a convenient way to 
+distribute the layout. Such a zip file is downloadable from 
+http://geomete.com/ftp/US-PolymathMac.zip
+
