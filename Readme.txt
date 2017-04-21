@@ -1,11 +1,14 @@
 US-POLYMATH KEYBOARD LAYOUT (aka INPUT METHOD) FOR MACOS
 
 This is a fairly general-purpose keyboard meant to facilitate 
-typing technical as well as literary texts. It provides several 
-math symbols, especially those commonly used in logic, set theory, 
-and number theory, and the most frequently used Greek letters. 
-It also includes a variety of "combining diacritical marks" to 
-type "extended characters" of Latin script.
+typing literary as well as scientific texts. It provides a 
+variety of "combining diacritical marks" to type 
+"extended characters" of Latin script. ("Extended characters" 
+are composed by decorating ordinary letters of the alphabet with 
+various accents and diacritical marks.) The keyboard also 
+includes several math symbols, especially those commonly used 
+in logic, set theory, and number theory, and the most frequently 
+used Greek letters. 
 
 The currently available keyboard layouts provide one of two 
 alternative methods (sometimes a bit of each) to compose an
