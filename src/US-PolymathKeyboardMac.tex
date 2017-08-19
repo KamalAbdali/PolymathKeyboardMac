@@ -2,7 +2,7 @@
 %!TEX encoding = UTF-8 Unicode
 \documentclass[11pt]{article}
 %
-% United States-Polymath Keyboard Layout (Windows and Unix)
+% United States-Polymath Keyboard Layout (Mac)
 % Kamal Abdali
 %
 \pagestyle{empty}
@@ -14,8 +14,8 @@
 \usepackage{xcolor}
 \usepackage{pifont}
 \setmainfont{Courier New}
-\newfontfamily\sch[Scale=1.5]{XITS} %{Times New Roman} %{Arial}
-\newfontfamily\sym[Scale=1.5]{XITS}%{Apple Symbols}
+\newfontfamily\sch[Scale=1.5]{XITS} %{STIX} %{Times New Roman} %{Arial}
+\newfontfamily\sym[Scale=1.5]{XITS} %{STIX} %{Apple Symbols}
 
 \voffset=0.2in
 \hoffset=0in
@@ -300,7 +300,7 @@
 \put(183,0){\framebox(17,15)} %option
 
 \put(120,198){\makebox(0,0){{\LARGE \bf United States-Polymath Keyboard Layout (Mac)}}}
-\put(120,192){\makebox(0,0){{Kamal Abdali, k.abdali@acm.org, {\it http://geomete.com/urdumac.html}, (Version US-Polymath1)}}}
+\put(120,192){\makebox(0,0){{Kamal Abdali, k.abdali@acm.org, {\it http://geomete.com/urdumac.html}, (Version US-Polymath2)}}}
 \put(0,189){\line(1,0){243}}
 \put(120,185){\makebox(0,0){{\bf  Symbols typed Without Or With SHIFT.  For symbols highlighted in \colorbox{yellow}{Yellow}, 
 CAPS LOCK must be on.}}}
@@ -537,13 +537,13 @@ CAPS LOCK must be on.}}}
 \put(26,75){\makebox(0,0)[l]{\symbol{"02BE}}} % modifier letter right half ring
 \put(26,67){\makebox(0,0)[l]{\symbol{"0131}}} % small dotless i
 % key 2
-\put(42,75){\makebox(0,0)[l]{\ding{51}}}    %checkmark U+2713
-\put(42,68){\makebox(0,0)[l]{\colorbox{green}{\ \symbol{"20D7}}}} % combining right arrow above
+\put(40,76){\makebox(0,0)[l]{\symbol{"21D0}}} % leftwards dbl arrow 
+\put(42,68){\makebox(0,0)[l]{\colorbox{green}{\ \symbol{"0305}}}} % combining overline
 % key 3
-\put(58,75){\makebox(0,0)[l]{\ding{55}}}   %cross mark U+2717
+\put(56,76){\makebox(0,0)[l]{\symbol{"21D2}}}  % rightwards dbl arrow 
 \put(56,68.5){\makebox(0,0)[l]{\colorbox{green}{\ \ \symbol{"20DE}}}} % combining enclosing square
 % key 4
-\put(74,75){\makebox(0,0)[l]{\symbol{"2033}}} % ditto mark U+3003
+\put(72,76){\makebox(0,0)[l]{\symbol{"21D4}}} % left right dbl arrow
 \put(72,69){\makebox(0,0)[l]{\colorbox{green}{\ \ \symbol{"20DF}}}} % combining enclosing diamond
 % key 5
 \put(90,75){\makebox(0,0)[l]{\symbol{"2020}}} % dagger
@@ -575,7 +575,7 @@ CAPS LOCK must be on.}}}
 
 %key Q
 \put(35,60){\makebox(0,0)[l]{\symbol{"2205}}} % empty set
-\put(35,52){\makebox(0,0)[l]{\symbol{"2220}}} % angle
+\put(35,52){\makebox(0,0)[l]{\symbol{"2206}}} % increment
 %key W
 \put(51,60){\makebox(0,0)[l]{\symbol{"220B}}} % contains as member
 \put(50,52){\makebox(0,0)[l]{\colorbox{green}{\ \symbol{"02D9}}}} % combining dot above U+0307 
@@ -584,13 +584,13 @@ CAPS LOCK must be on.}}}
 \put(66,52){\makebox(0,0)[l]{\colorbox{green}{\ \symbol{"00B4}}}} % combining acute accent U+0301
 %key R
 \put(83,60){\makebox(0,0)[l]{\symbol{"2209}}} % not element of
-\put(83,52){\makebox(0,0)[l]{\symbol{"21D4}}} % left right double arrow
+\put(83,52){\makebox(0,0)[l]{\colorbox{green}{\ \symbol{"02DA}}}} % combining ring above U+030A
 %key T
 \put(99,60){\makebox(0,0)[l]{\symbol{"2282}}} % subset
-\put(99,52){\makebox(0,0)[l]{\symbol{"21D0}}} % leftwards double arrow
+\put(99,52){\makebox(0,0)[l]{\colorbox{green}{\ \symbol{"20D6}}}} % combining left arrow above
 %key Y
 \put(115,60){\makebox(0,0)[l]{\symbol{"2283}}} % superset
-\put(115,52){\makebox(0,0)[l]{\symbol{"21D2}}} % rightwards double arrow
+\put(115,52){\makebox(0,0)[l]{\colorbox{green}{\ \symbol{"20D7}}}} % combining right arrow above
 %key U
 \put(132,60){\makebox(0,0)[l]{\symbol{"222A}}} % set union
 \put(130,52){\makebox(0,0)[l]{\colorbox{green}{\ \"{}}}} % combining diaeresis U+0308
@@ -635,13 +635,13 @@ CAPS LOCK must be on.}}}
 \put(120,35){\makebox(0,0)[l]{\colorbox{green}{\ \symbol{"0331}}}} % combining macron below U+0331    %02CD
 %key J
 \put(137,43){\makebox(0,0)[l]{\symbol{"2262}}} % not identical to
-\put(135,36){\makebox(0,0)[l]{\colorbox{green}{\ \symbol{"02DD}}}} % combining double acute extent U+030B
+\put(137,35){\makebox(0,0)[l]{\colorbox{green}{\ \symbol{"0324}}}} % combining diaeresis U+0324
 %key K
 \put(152,44){\makebox(0,0)[l]{\symbol{"22A6}}} % asserts
-\put(151,36){\makebox(0,0)[l]{\colorbox{green}{\ \symbol{"02DA}}}} % combining ring above U+030A
+\put(151,36){\makebox(0,0)[l]{\colorbox{green}{\ \symbol{"02DD}}}} % combining double acute extent U+030B
 %key L
 \put(168,44){\makebox(0,0)[l]{\symbol{"22A7}}} % models
-\put(168,35){\makebox(0,0)[l]{\colorbox{green}{\ \symbol{"0324}}}} % combining diaeresis U+0324
+\put(168,35){\makebox(0,0)[l]{\symbol{"22BB}}} % xor
 %key ; (semicolon)
 \put(182,44){\makebox(0,0)[l]{\symbol{"2194}}} % left right arrow
 \put(182,35){\makebox(0,0)[l]{\symbol{"2026}}} % horizontal ellipsis
