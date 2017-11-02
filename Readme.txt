@@ -18,7 +18,7 @@ you first press the dead key and then press the character to be
 modified.  After the first keypress, no output appears on the 
 screen, but after the second keypress the modified character is 
 output. In the alternative method, you first press the letter to 
-be modifed, and then press the special key assigned to the 
+be modified, and then press the special key assigned to the 
 combining diacritical mark. The US-Polymath Keyboard uses the 
 second method exclusively.
 
@@ -49,7 +49,7 @@ above to
 2) directly install the layout on the OS, 
 3) produce for quick manual installation a "keylayout bundle" that 
 packages the layout and an icon to go with it, and 
-4) preapare a ".dmg" (MacOS disk image) file for distributing the 
+4) prepare a ".dmg" (MacOS disk image) file for distributing the 
 layout.
 
 - Asymptote source file polymathicon.asy. 
@@ -60,7 +60,7 @@ Asymptote, you can prepare a pdf file with the command
 "asy -f pdf polymathicon.asy" 
 (or a png or tif file by changing the value of the "-f" option to
 "png" or "tif"), and use some application to convert this 
-intermediate result into an icns format icon. (For comapring your 
+intermediate result into an icns format icon. (For comparing your 
 results, this directory also includes sample pdf and high and low 
 resultion icns files.)
 
@@ -81,7 +81,7 @@ This directory contains:
 
 - MacOS disk image file US-Polymath.dmg.
 
-- Mac keyboard layout file US-PolymathKeyboardMac.keylayout.
+- Mac keyboard layout file us-polymath.keylayout.
 
 - Layout icon file us-polymath.icns.
 
