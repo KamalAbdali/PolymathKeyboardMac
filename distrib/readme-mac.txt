@@ -13,18 +13,19 @@ keyboard layout map.
 1. The quicker method for installation is to double-click on the
 "US-Polymath.dmg" file. This should produce a window showing two
 items: an icon "US-Polymath.bundle" and a folder. Drag the bundle 
-icon into the folder, and you're done.
+icon into the folder, authenticate the operation by typing the 
+root password, and you're done.
 
 2. In case that method doesn't work (i.e., the files you have to
 look for in the Activation step below can't be found), then an 
 alternative method (with its own two alternatives!) is as follows: 
 
 a) To make the keyboard layout available to all users on your 
-computer (for this you will need to be an administrator), copy the 
-files "us-polymath.keylayout" and "us-polymath.icns" into the folder 
-"/Library/Keyboard Layouts". (If you have already installed a 
-previous version of the US-Polymath keyboard layout, then confirm 
-that you want the old files overwritten.) 
+computer (for this you will need to be root/administrator), copy 
+the files "us-polymath.keylayout" and "us-polymath.icns" into the 
+folder "/Library/Keyboard Layouts". (If you have already installed 
+a previous version of the US-Polymath keyboard layout, then 
+confirm that you want the old files overwritten.) 
 
 OR
 
@@ -52,6 +53,6 @@ keyboard layouts. If "US-Polymath" isn't there, Click on "+".
 
 4. Close the System Preference window.
 
-5. The US-Polymath keyboard should now be listed in the Keyboard menu
-(aka Input menu) near the right end of the Mac screen.
+5. The US-Polymath keyboard or its icon should now be listed in the 
+Keyboard menu (aka Input menu) near the right end of the Mac screen.
 
